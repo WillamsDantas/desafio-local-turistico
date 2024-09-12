@@ -20,24 +20,60 @@ body {
   padding: 88px 80px;
 }
 
-#description img {
+#main-header, #description-img {
+  margin-bottom: 40px;
+}
+
+#main-header p {
+margin-bottom: 8px;
+}
+
+#description-img img {
   width: 100%;
   height: 660px;
   border-radius: 28px;
+}
+#description-img p {
+  margin-top: 24px;
 }
 
 .divisor {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
   background-color: #d9d9d9;
 }
+
+#list-header {
+  margin: 64px 0;
+}
+
+#list-header h2 {
+margin-top: 2px;
+margin-bottom: 8px;
+}
+
+
 #card-travel img {
   width: 100%;
   height: 350px;
   object-fit: cover;
   border-radius: 28px;
+  margin-bottom: 20px;
 }
+
+#card-travel article {
+  margin-top: 4px;
+}
+
+.content-card {
+  margin-bottom: 48px;
+}
+
+.last-card {
+  margin-bottom: 40px;
+}
+
+
 
 /*----------TEXT SECTION----------*/
 
@@ -76,6 +112,11 @@ body {
   font-weight: bold;
 }
 
+.description {
+  margin-top: 40px;
+  text-align: center;
+}
+
 h1 {
   font-size: 36px;
 }
@@ -105,6 +146,7 @@ ul li {
 
 footer {
   text-align: center;
+  margin-bottom: 48px;
 }
 
 footer img {
